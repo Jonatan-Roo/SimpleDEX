@@ -1,6 +1,7 @@
 const { buildModule } = require("@nomicfoundation/hardhat-ignition/modules");
 
 const SimpleDEXModule = buildModule("SimpleDEX", (m) => {
+
   // Desplegar TokenA
   const tokenA = m.contract("TokenA");
   
